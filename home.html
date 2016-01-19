@@ -35,7 +35,104 @@
     </nav>
   </header>
 
+  <main>
+    <!-- SLIDER -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="http://thefederalist.com/wp-content/uploads/2014/12/Diversity-Shutterstock-998x615.jpg"> 
+          <!-- <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div> -->
+        </li>
+        <li>
+          <img src="http://interactive.usc.edu/wp-content/uploads/2015/04/Diversity-Blog-Wordle.jpg">
+          <!-- <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div> -->
+        </li>
+        <li>
+          <img src="http://www.jobpostings.ca/sites/default/files/heroimages/articles/hero_diversebusiness.jpg"> 
+          <!-- <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div> -->
+        </li>
+        <li>
+          <img src="http://www.smcm.edu/campus-life/wp-content/uploads/sites/33/2013/12/campuslife.jpg">
+          <!-- <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div> -->
+        </li>
+      </ul>
+    </div>
+    <div class=" indicators cyan"></div>
   
+    <!-- CARDS: EMAIL,VOLUNTEER, PAYAPL -->
+    <div class="continer">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <nav class="cyan">
+              <h4>Weekly Email</h4>
+            </nav>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <nav class="cyan">
+              <h4>Volunteer</h4>
+            </nav>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <nav class="cyan">
+              <h4>Donate</h4>
+            </nav>
+            <h5> Enter the amount you wish to donate and click the paypal button to contribute.</h5>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_xclick">
+              <input type="hidden" name="business" value="livetogether@gmail.com">
+              <div class="input-field col s4">
+                <input type="text" name="amount">
+              </div>
+              <input type="hidden" name="no_shipping" value="0">
+              <input type="hidden" name="no_note" value="1">
+              <input type="hidden" name="currency_code" value="USD">
+              <input type="hidden" name="lc" value="AU">
+              <input type="hidden" name="bn" value="PP-BuyNowBF">
+              <input type="hidden" name="return" value="http://net.tutsplus.com/payment-complete/">
+              <!--PAYPAL BUTTON-->
+              <div class="col m3 s5">
+                <button class="btn waves-effect waves-light white" type="submit" name="action"><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal">
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer class="cyan lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright cyan darken-3">
+      <div class="container">
+        2016 Copyright Text
+      </div>
+    </div>
+  </footer>
             
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
